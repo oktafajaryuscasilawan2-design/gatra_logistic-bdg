@@ -1,0 +1,12 @@
+body { font-family: sans-serif; margin: 0; padding: 0; }
+nav { background: #d32f2f; color: white; padding: 15px 50px; display: flex; justify-content: space-between; align-items: center; }
+nav ul { list-style: none; display: flex; gap: 20px; }
+nav a { color: white; text-decoration: none; }
+
+header { background: #333; color: white; padding: 100px 50px; text-align: center; }
+button { background: #d32f2f; color: white; border: none; padding: 15px 30px; cursor: pointer; font-size: 16px; border-radius: 5px; }
+
+section { padding: 50px; text-align: center; }
+input { padding: 15px; width: 300px; border: 1px solid #ccc; border-radius: 5px; }
+
+#hasilLacak { margin-top: 20px; padding: 20px; border: 1px solid #eee; display: inline-block; min-width: 300px; }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatra Logistic - Fast & Reliable Freight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">GATRA LOGISTIC</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cek Resi</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Fast & Reliable Freight</h1>
+        <p>Menghubungkan bisnis Anda dengan jaringan logistik cepat, aman, dan terintegrasi secara digital.</p>
+        <div class="hero-btns">
+            <button onclick="window.location.href='#lacak'">Mulai Lacak Kiriman</button>
+        </div>
+    </header>
+
+    <section id="lacak">
+        <h2>Lacak Kiriman</h2>
+        <input type="text" id="resiInput" placeholder="Masukkan nomor resi...">
+        <button onclick="lacakResi()">Cek Resi</button>
+        <div id="hasilLacak"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
